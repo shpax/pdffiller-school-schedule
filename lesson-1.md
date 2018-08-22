@@ -20,13 +20,10 @@ npm init
 - [scripts](https://docs.npmjs.com/misc/scripts), reserved words (start, stop, test, prepare, prepublish, postpublish)
 - main file
 
-### Dependencies (10 min)
-- semver - ^ and ~, git urls, module versions
-- dependencies
-- devDependencies (NODE_ENV, external module use)
-- peerDependencies (module compatibility)
-- bundledDependencies (published with module)
-- package-lock.json
+### Semver
+- ^ (minor)
+-  ~ (patch), 
+- git urls (git://github.com/npm/cli.git#v1.0.27)
 
 ### Module tree structure (10 min)
 ```bash
@@ -34,6 +31,13 @@ npm install --save-dev webpack
 ```
 - node_modules (local & global - `/usr/local/lib`)
 - local .bin folder
+
+### Dependencies (10 min)
+- dependencies
+- devDependencies (NODE_ENV, external module use)
+- peerDependencies (module compatibility)
+- bundledDependencies (published with module)
+- package-lock.json
 
 ## Break (10 min)
 
