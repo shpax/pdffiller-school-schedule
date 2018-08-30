@@ -3,13 +3,12 @@
 ## Basics (5 min)
 
 - why do package managers exist?
-- alternatives to npm (yarn)
+- alternatives to npm (yarn & bower)
 - module system
 
-## What is package.json
+## What is package.json (10-15 min)
 
 [link to docs](https://docs.npmjs.com/files/package.json)
-### Overview (10 min)
 
 ```bash
 npm init
